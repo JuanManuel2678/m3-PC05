@@ -2,7 +2,7 @@
 
 export const ImageText = ({order, imgMobile, imgDesktop, title, text}) => {
   return (
-    <div className={`${order} relative pt-[398px] sm:pt-[350px] tablet:pt-[150px] lg:pt-[250px] desktop:pt-[398px]`}>
+    <div className={`${order} relative pt-[398px] sm:pt-[350px] tablet:pt-[150px] md:pt-[160px] lg:pt-[250px] xl:pt-[350px] desktop:pt-[398px]`}>
       <picture className="absolute top-0 z-[-1]">
         <source media='(max-width:639px)' srcSet={imgMobile}/>
         <source media='(min-width:640px)'srcSet={imgDesktop}/>
